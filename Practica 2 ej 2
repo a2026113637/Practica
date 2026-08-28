@@ -1,0 +1,35 @@
+#include <iostream>
+
+using namespace std;
+
+
+int main() {
+
+    // Definir variables
+
+    double n1, n2, suma;
+
+    // Entrada de datos
+
+    cout << "Ingrese el primer numero: ";
+    cin >> n1;
+
+    cout << "Ingrese el segundo numero: ";
+    cin >> n2;
+
+    // proceso
+
+    suma = n1+n2;
+
+
+    // Salidas
+
+    cout << endl;
+
+    cout << "La suma es: " << suma << endl;
+
+
+        return 0;
+
+
+}
