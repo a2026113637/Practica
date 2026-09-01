@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+
+
+int main() {
+
+//Definir variables
+
+    double cantidad;
+    double precio = 12, total;
+
+//Entrada
+
+    cout << "Ingrese la cantidad de cuadernos a comprar: ";
+    cin >> cantidad;
+
+//proceso
+
+    total = cantidad * precio;
+
+
+ //Salidas
+
+    cout << endl;
+
+    cout << "El total a pagar es: " << total << " Bs" << endl;
+
+        return 0;
+
+
+}
