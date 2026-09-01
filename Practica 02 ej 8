@@ -1,0 +1,39 @@
+#include <iostream>
+using namespace std;
+
+
+int main() {
+
+    //Definir variables
+
+    double monto, descuento, total;
+
+    //Entrada 
+
+    cout << "Ingrese el monto de la compra: ";
+    cin >> monto;
+
+    cout << endl;
+
+    //condicion
+
+    if (monto > 100) {
+        descuento = monto * 0.10;
+        total = monto - descuento;
+    }
+    else {
+        descuento = 0;
+        total = monto;
+    }
+
+
+    // Salidas
+
+    cout << endl;
+
+    cout << "El total a pagar es: " << total << " Bs" << endl;
+
+        return 0;
+
+
+}
