@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+
+
+int main() {
+
+//Definir variables
+
+double nota1, nota2, nota3, promedio;
+
+//Entradas
+
+cout << "Ingrese la primera nota: ";
+cin >> nota1; 
+
+cout << "Ingrese la segunda nota: ";
+cin >> nota2;
+
+cout << "Ingrese la tercera nota: ";
+cin >> nota3;
+
+//Proceso
+
+promedio = (nota1 + nota2 + nota3)/3;
+
+cout << endl;
+
+//Salida
+
+cout << "El promedio es: " << promedio;
+
+ return 0;
+
+
+}
