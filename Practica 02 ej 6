@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+
+
+int main() {
+
+    //Definir variables
+
+    double n1, n2;
+
+    //Entrada 
+
+    cout << "Ingrese el primer numero: ";
+    cin >> n1;
+
+    cout << "Ingrese el segundo numero: ";
+    cin >> n2;
+
+    cout << endl;
+
+    //condicion
+
+    if (n1 > n2) {
+        cout << "El numero mayor es: " << n1;
+    }
+    else {
+        cout << "El numero mayor es: " << n2;
+    }
+
+    cout << endl;
+
+        return 0;
+
+
+}
