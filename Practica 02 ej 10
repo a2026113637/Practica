@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    //Definir variables
+
+    double horas, pagoHora, salario;
+
+    //Entrada 
+
+    cout << "Ingrese las horas trabajadas: ";
+    cin >> horas;
+
+    cout << "Ingrese el pago por hora: ";
+    cin >> pagoHora;
+
+    cout << endl;
+
+    //proceso y condicion
+
+    salario = horas * pagoHora;
+
+    if (horas > 40) {
+        salario = salario + (salario * 0.10);
+    }
+
+
+    //Salidas
+
+    cout << endl;
+
+    cout << "El salario total del trabajador es: " << salario << " Bs" << endl;
+
+        return 0;
+
+
+}
